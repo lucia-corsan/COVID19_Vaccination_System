@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
-
 from dlist import DList
 from dlist import DNode
 
@@ -163,9 +156,7 @@ class HealthCenter(DList):
                 merged.addLast(current.elem)
                 current = current.next
                 currentO = currentO.next
-                
-        """ comentario """
-                
+                                
         while current:
             merged.addLast(current.elem)
             current = current.next
@@ -198,9 +189,7 @@ class HealthCenter(DList):
                  
            current = current.next
            found = False
-           
-       """"comentario sobre qué está pasando aquí estoy confusa y tengo miedo mom come pick me up I am scared""" 
-    
+               
        currenthc = hc._head
        currentO = other._head
        found = False
@@ -220,7 +209,6 @@ class HealthCenter(DList):
        return hc   
         
     
-    """nested loop? luego preguntamos plox"""
     def inter(self,other):
         hc = HealthCenter()
         current = self._head
